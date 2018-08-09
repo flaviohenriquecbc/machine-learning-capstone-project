@@ -9,7 +9,11 @@ _(approx. 2-3 pages)_
 ### Domain Background
 _(approx. 1-2 paragraphs)_
 
-Social networks has become an important communication tool and source of information. The hours spent on these platforms has increased in the past years [REFERENCE] and a person stays in average 8 hours connected. Some studies shows that during one hour using such platforms an user is presented to 123 differents type of content, such as friends status, funny posts, news and more. And for 34% of the users, the social networks is the main source of news and information. With so much information and variety of content, the average amount of time for a user to decide if he will interact with one of the content is around 3.2 seconds. And the more content the user is exposed, the less time he will be willing to spend choosing an interesting feed. Choosing proper title for the post affects the probability that a user will check the content. This measure has a strong impact on how many readers an article will have and how much the idea will be spread. Further, showing the user a content they prefer to interact increases the user satisfaction. Thus, it is important to accurately estimate the click-through rate of articles based on it's title.
+Social networks websites have become an important communication tool and source of information. The hours spent in average connected per day in the past years is up to 6 hours [1] for adults and 9 for teenagers, while 30% of this time is on social networks [2]. During a normal navigation on such platform, users are exposed to several posts such as friends status, images, news and more. With such amount of information and variety of content, the time for the user to decide to interact with the content is very small. Gitte at al. [3] suggest that we take around 50 milliseconds to make a good first impression and this have been shown to be very powerful in a wide range of contexts.
+
+Besides being a place for connecting with friends and sharing moments of the user's life, a survey has shown that 67% of the users use the social networks also as source of news and information [4]. Being 80% of the articles read inside the platform and 20% read on an external site [6]. Part of these posts are articles that can be read on an external website. Typically such posts show the title of the article and sometimes a small part of its content and an image.
+
+With all the offer of content and competition with so many interesting posts showing a proper title for the post affects the probability that a user will check the content. This measure has a strong impact on how many readers an article will have and how much the content will be read. Further, showing the user a content they prefer to interact increases the user satisfaction. Thus, it is important to accurately estimate the interaction rate of articles based on its title.
 
 ### Problem Statement
 _(approx. 1 paragraph)_
@@ -40,6 +44,16 @@ In this section, propose at least one evaluation metric that can be used to quan
 _(approx. 1 page)_
 
 In this final section, summarize a theoretical workflow for approaching a solution given the problem. Provide thorough discussion for what strategies you may consider employing, what analysis of the data might be required before being used, or which algorithms will be considered for your implementation. The workflow and discussion that you provide should align with the qualities of the previous sections. Additionally, you are encouraged to include small visualizations, pseudocode, or diagrams to aid in describing the project design, but it is not required. The discussion should clearly outline your intended workflow of the capstone project.
+
+### References
+
+[1] eMarketer Report. (2017). US Time Spent with Media: eMarketer’s Updated Estimates for 2017. Accessed 9 Aug. 2018. Available at: https://www.emarketer.com/Report/US-Time-Spent-with-Media-eMarketers-Updated-Estimates-2017/2002142
+
+[2] Common Sense Media. (2015). The Common Sense Census: Media Use by Tweens and Teens. Accessed 9 Aug. 2018. Available at: https://www.commonsensemedia.org/research/the-common-sense-census-media-use-by-tweens-and-teens
+
+[3] Lindgaard, Gitte & Fernandes, Gary & Dudek, Cathy & M. Brown, Judith. (2006). Attention web designers: You have 50 milliseconds to make a good first impression! Behaviour and Information Technology, 25(2), 115-126. Behaviour & IT. 25. 115-126. 10.1080/01449290500330448. 
+
+[4] Shearer, E., Gottfried, J. (2017). News use across social media platforms 2017. Accessed 9 Aug. 2018. Available at: http://www.journalism.org/2017/09/07/news-use-across-social-media-platforms-2017/ 
 
 -----------
 
