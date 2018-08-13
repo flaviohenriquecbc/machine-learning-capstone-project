@@ -20,14 +20,63 @@ _(approx. 1 paragraph)_
 
 When the author writes a text, it is expected that his words will reach a reasonable number of readers, and will influence and bring value to the readers. During the creation of the content, the title is one of the important details that needs to be taken in consideration, because it will normally the first contact the reader will probably have with the article. Thus, to create a good first impression, try to have more people reading the article and interacting with it, choosing a good title is very important.
 
-Some of the most used platforms to spread ideas nowadays are Twitter and Medium. On the first one, normally is posted external urls with its tile, where the users can access and demonstrate its satisfaction with "Likes" or "Retweeting" (shares) the original post. The second one, there is the full content with tags to classify the article and "Applause" (similar to Twitter "Likes") to show the user appretiated the content. 
+Some of the most used platforms to spread ideas nowadays are Twitter [6] and Medium [7]. On the first one, normally is posted external urls with its tile, where the users can access and demonstrate its satisfaction with "Likes" or "Retweeting" (shares) the original post. The second one, there is the full content with tags to classify the article and "Applause" (similar to Twitter "Likes") to show the user appretiated the content. And a correlation between these two networks can bring us more valuable information.
 
-The problem to be solved: Predict the number of likes and shares an article receives based on title's words. Also analyse how the title length and the categories chosen to tag the text perform.
+The problem to be solved: Predict the number of likes and shares an article receives based on its title; and analyse how the title length and the categories tags had performed.
+
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
 
-In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly described, such as how they relate to the problem and why they should be used. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included with relevant references and citations as necessary It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem.
+The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [8] and Twitter [9]. With both social platforms, we could get public information about how the users interacted with the content, such as "Likes" and "Retweets" from Twitter, and "Applause" and categories tags from Medium. 
+
+The reason to correlate the number of "Likes" and "Retweets" from Twitter with a Medium article, was to try to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles reached initially almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and the performance and subsequent interactions with the article are limited to other variables like the title of the article, that is exactly what we want to measure.
+
+It was decided to choose FreeCodeCamp account, because we wanted to limit the scope of the subject of the articles and predict better the response on a specif field. The same title can perform well on one category (e.g. Technology), but not necessarly on a different one (e.g. Culinary). Also this account posts as the Tweet content the title of the original article and the url on Medium. 
+
+After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, we reachead a dataset of 719 datapoints. Here are some examples of such correlation:
+
+"retweet_count": 15
+"favorite_count": 48
+"title": "ES9: JavaScript's state of the art in 2018"
+"created_at": "2018-07-23 17:02:04"
+"url": "https://medium.freecodecamp.org/es9-javascripts-state-of-art-in-2018-9a350643f29c"
+"mediumHearts": 618,
+"mediumCategories": ["Technology", "Programming", "Tech", "Startup", "JavaScript"] }
+titleWords: [""]
+length: 
+
+"retweet_count": 10,
+"favorite_count": 30,
+"title": "b\"Here's another way to think about state: How to visually design state in JavaScript, by @Sh_McK",
+"created_at": "2018-07-24 17:02:00",
+"url": "https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b",
+"mediumHearts": 2,
+"mediumCategories": ["JavaScript", "Statecharts", "Programming", "React", "Technology"]
+titleWords: [""]
+length: 
+
+"retweet_count": 4,
+"favorite_count": 14,
+"title": "How to understand Gradient Descent, the most popular ML algorithm",
+"url": "https://medium.freecodecamp.org/understanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f",
+"mediumHearts": 102,
+"mediumCategories": ["Machine Learning", "Artificial Intelligence", "Data Science", "Mathematics", "Tech"]
+titleWords: [""]
+length: 
+
+Description:
+"retweet_count":
+"favorite_count":
+"title":
+"url":
+"mediumHearts":
+"mediumCategories":
+titleWords:
+length: 
+//TODO: calculate the length of the title and titleWords
+
+The list of the words "titleWords" from the title, was obtained cleaning some common words such as "the", "a", .... This cleaning of words can be understood more in JOhn an at study [10]
 
 ### Solution Statement
 _(approx. 1 paragraph)_
@@ -60,6 +109,16 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 [4] Shearer, E., Gottfried, J. (2017). News use across social media platforms 2017. Accessed 9 Aug. 2018. Available at: http://www.journalism.org/2017/09/07/news-use-across-social-media-platforms-2017/ 
 
 [5] Missing reference
+
+[6] 
+
+[7] 
+
+[8] 
+
+[9] 
+
+[10] Missing reference
 
 -----------
 
