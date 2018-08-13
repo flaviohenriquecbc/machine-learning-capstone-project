@@ -32,7 +32,7 @@ The data used to predict how titles will perform was gathered from the accounts 
 
 The reason to correlate the number of "Likes" and "Retweets" from Twitter with a Medium article, was to try to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles reached initially almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and the performance and subsequent interactions with the article are limited to other variables like the title of the article, that is exactly what we want to measure.
 
-It was decided to choose FreeCodeCamp account, because we wanted to limit the scope of the subject of the articles and predict better the response on a specif field. The same title can perform well on one category (e.g. Technology), but not necessarly on a different one (e.g. Culinary). Also this account posts as the Tweet content the title of the original article and the url on Medium. 
+It was decided to choose FreeCodeCamp account, because we wanted to limit the scope of the subject of the articles and predict better the response on a specif field. The same title can perform well on one category (e.g. Technology), but not necessarly on a different one (e.g. Culinary). Also this account posts as the Tweet content the title of the original article and the url on Medium.
 
 After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, we reachead a dataset of 719 datapoints. Here are some examples of such correlation:
 
@@ -60,17 +60,26 @@ Description of the dataset fields:
 ### Solution Statement
 _(approx. 1 paragraph)_
 
-In this section, clearly describe a solution to the problem. The solution should be applicable to the project domain and appropriate for the dataset(s) or input(s) given. Additionally, describe the solution thoroughly such that it is clear that the solution is quantifiable (the solution can be expressed in mathematical or logical terms) , measurable (the solution can be measured by some metric and clearly observed), and replicable (the solution can be reproduced and occurs more than once).
+To try to predict the number of shares and likes of an article, we will define the problem as a classification system. Where the words of the title will be tokens t1, t2, ... tn and the range of the likes and shares will be the output of this classification. We will use algorithms such as Support Vector Machines (SVM), Decision Trees, Gaussian Naive Bayes (GaussianNB), K-Nearest Neighbors and Logistic Regression.
+
+To implement this solution we will use Numpy and Scikit running on default hyperparameters.
+
 
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-In this section, provide the details for a benchmark model or result that relates to the domain, problem statement, and intended solution. Ideally, the benchmark model or result contextualizes existing methods or known information in the domain and problem given, which could then be objectively compared to the solution. Describe how the benchmark model or result is measurable (can be measured by some metric and clearly observed) with thorough detail.
+To reach a better solution, we will test several supervised algorithms and compare the performance between them.  
+
 
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
 
-In this section, propose at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model. The evaluation metric(s) you propose should be appropriate given the context of the data, the problem statement, and the intended solution. Describe how the evaluation metric(s) are derived and provide an example of their mathematical representations (if applicable). Complex evaluation metrics should be clearly defined and quantifiable (can be expressed in mathematical or logical terms).
+The benchmark model and solution model will be evaluated, when appropriate, with the F1, accurancy and precision scores.
+
+ - F1 score
+ - Accurancy Score
+ - Precision Score
+
 
 ### Project Design
 _(approx. 1 page)_
