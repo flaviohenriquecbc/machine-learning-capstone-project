@@ -38,19 +38,23 @@ After getting the articles from FreeCodeCamp written on Medium and shared on Twi
 
 | Title | Retweet Count | Favorite Count | Medium Hearts | Medium Categories  | Created at | URL |
 | --- | --- | --- | --- | --- | --- | --- |
-| ES9: JavaScript's state of the art in 2018 | 15 | 48| 618 | Technology, Programming, Tech, Startup, JavaScript | 2018-07-23 17:02:04 | https://medium.freecodecamp.org/es9-javascripts-state-of-art-in-2018-9a350643f29c |
+| ES9: JavaScript's state of the art in 2018 | 15 | 48 | 618 | Technology, Programming, Tech, Startup, JavaScript | 2018-07-23 17:02:04 | https://medium.freecodecamp.org/es9-javascripts-state-of-art-in-2018-9a350643f29c |
 | Here's another way to think about state: How to visually design state in JavaScript | 10 | 30 | 2 | JavaScript, Statecharts, Programming, React, Technology | 2018-07-24 17:02:00 | https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b |
-| How to understand Gradient Descent, the most popular ML algorithm | 4 | 14 | 102 | Machine Learning, Artificial Intelligence, Data Science, Mathematics, Tech | https://medium.freecodecamp.org/understanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f |
+| How to understand Gradient Descent, the most popular ML algorithm | 4 | 14 | 102 | Machine Learning, Artificial Intelligence, Data Science, Mathematics, Tech | 2018-07-24 16:01:18 | https://medium.freecodecamp.org/understanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f |
 
 
-Description:
-"retweet_count":
-"favorite_count":
-"title":
-"url":
-"mediumHearts":
-"mediumCategories":
-length: 
+Description of the dataset fields:
+
+| Field | Description | 
+| --- | --- |
+| Title | The content of the tweet, FreeCodeCamp normally uses the title of the title and sometimes the username of the author |
+| Retweet Count | How many times that tweet was "Retweeted" on Twitter |
+| Favorite Count | How many times that tweet was marked as favorite on Twitter |
+| Medium Hearts | How many times that article was marked as favorite on Medium |
+| Medium Categories | Which tags were used to tag the article on Medium |
+| Created at | When the tweet was posted |
+| URL | The url of the article on Medium |
+
 
 
 ### Solution Statement
