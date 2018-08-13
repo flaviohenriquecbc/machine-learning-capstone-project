@@ -36,34 +36,12 @@ It was decided to choose FreeCodeCamp account, because we wanted to limit the sc
 
 After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, we reachead a dataset of 719 datapoints. Here are some examples of such correlation:
 
-"retweet_count": 15
-"favorite_count": 48
-"title": "ES9: JavaScript's state of the art in 2018"
-"created_at": "2018-07-23 17:02:04"
-"url": "https://medium.freecodecamp.org/es9-javascripts-state-of-art-in-2018-9a350643f29c"
-"mediumHearts": 618,
-"mediumCategories": ["Technology", "Programming", "Tech", "Startup", "JavaScript"] }
-titleWords: [""]
-length: 
+| Title | Retweet Count | Favorite Count | Medium Hearts | Medium Categories  | Created at | URL |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ES9: JavaScript's state of the art in 2018 | 15 | 48| 618 | "Technology", "Programming", "Tech", "Startup", "JavaScript" | 2018-07-23 17:02:04 | https://medium.freecodecamp.org/es9-javascripts-state-of-art-in-2018-9a350643f29c |
+| Here's another way to think about state: How to visually design state in JavaScript | 10 | 30 | 2 | "JavaScript", "Statecharts", "Programming", "React", "Technology" | 2018-07-24 17:02:00 | https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b |
+| How to understand Gradient Descent, the most popular ML algorithm | 4 | 14 | 102 | "Machine Learning", "Artificial Intelligence", "Data Science", "Mathematics", "Tech" | https://medium.freecodecamp.org/understanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f |
 
-"retweet_count": 10,
-"favorite_count": 30,
-"title": "b\"Here's another way to think about state: How to visually design state in JavaScript, by @Sh_McK",
-"created_at": "2018-07-24 17:02:00",
-"url": "https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b",
-"mediumHearts": 2,
-"mediumCategories": ["JavaScript", "Statecharts", "Programming", "React", "Technology"]
-titleWords: [""]
-length: 
-
-"retweet_count": 4,
-"favorite_count": 14,
-"title": "How to understand Gradient Descent, the most popular ML algorithm",
-"url": "https://medium.freecodecamp.org/understanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f",
-"mediumHearts": 102,
-"mediumCategories": ["Machine Learning", "Artificial Intelligence", "Data Science", "Mathematics", "Tech"]
-titleWords: [""]
-length: 
 
 Description:
 "retweet_count":
@@ -72,11 +50,8 @@ Description:
 "url":
 "mediumHearts":
 "mediumCategories":
-titleWords:
 length: 
-//TODO: calculate the length of the title and titleWords
 
-The list of the words "titleWords" from the title, was obtained cleaning some common words such as "the", "a", .... This cleaning of words can be understood more in JOhn an at study [10]
 
 ### Solution Statement
 _(approx. 1 paragraph)_
