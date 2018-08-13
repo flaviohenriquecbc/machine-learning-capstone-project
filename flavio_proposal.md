@@ -43,6 +43,11 @@ After getting the articles from FreeCodeCamp written on Medium and shared on Twi
 | How to understand Gradient Descent, the most popular ML algorithm | 4 | 14 | 102 | "Machine Learning", "Artificial Intelligence", "Data Science", "Mathematics", "Tech" | https://medium.freecodecamp.org/understanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f |
 
 
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
 Description:
 "retweet_count":
 "favorite_count":
