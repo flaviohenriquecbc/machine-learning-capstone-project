@@ -37,7 +37,7 @@ It was decided to choose FreeCodeCamp account, because we wanted to limit the sc
 After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, we reachead a dataset of 719 datapoints. Here are some examples of such correlation:
 
 | Title | Retweet Count | Favorite Count | Medium Hearts | Medium Categories  | Created at | URL |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | ES9: JavaScript's state of the art in 2018 | 15 | 48| 618 | "Technology", "Programming", "Tech", "Startup", "JavaScript" | 2018-07-23 17:02:04 | https://medium.freecodecamp.org/es9-javascripts-state-of-art-in-2018-9a350643f29c |
 | Here's another way to think about state: How to visually design state in JavaScript | 10 | 30 | 2 | "JavaScript", "Statecharts", "Programming", "React", "Technology" | 2018-07-24 17:02:00 | https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b |
 | How to understand Gradient Descent, the most popular ML algorithm | 4 | 14 | 102 | "Machine Learning", "Artificial Intelligence", "Data Science", "Mathematics", "Tech" | https://medium.freecodecamp.org/understanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f |
