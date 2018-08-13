@@ -18,9 +18,9 @@ Considering the offer of content and competition with so many interesting posts,
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-When the author writes a text, it is expected that his words will reach a reasonable number of readers, and will influence and bring value to the readers. During the creation of the content, the title is one of the important details that needs to be taken in consideration, because it will normally the first contact the reader will probably have with the article. Thus, to create a good first impression, try to have more people reading the article and interacting with it, choosing a good title is very important.
+When the author writes a text, it is expected that his words will reach a reasonable number of readers, and will influence and bring value to the readers. During the creation of the content, the title is one of the important details that needs to be taken in consideration, because normally it will the first contact the reader will have with the article. Thus, to create a good first impression, try to have more people to read the article and interact with it, choosing a good title is very important.
 
-Some of the most used platforms to spread ideas nowadays are Twitter [6] and Medium [7]. On the first one, normally is posted external urls with its tile, where the users can access and demonstrate its satisfaction with "Likes" or "Retweeting" (shares) the original post. The second one, there is the full content with tags to classify the article and "Applause" (similar to Twitter "Likes") to show the user appretiated the content. And a correlation between these two networks can bring us more valuable information.
+Some of the most used platforms to spread ideas nowadays are Twitter [6] and Medium [7]. On the first one, normally is posted external urls with its title, where the users can access and demonstrate its satisfaction with "Likes" or "Retweeting" (shares) of the original post. The second one has the full text with tags to classify the article and "Applause" (similar to Twitter "Likes") to show how much the users appretiated the content. A correlation between these two networks can bring us more valuable information.
 
 The problem to be solved: Predict the number of likes and shares an article receives based on its title; and analyse how the title length and the categories tags had performed.
 
@@ -28,7 +28,7 @@ The problem to be solved: Predict the number of likes and shares an article rece
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
 
-The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [8] and Twitter [9]. With both social platforms, we could get public information about how the users interacted with the content, such as "Likes" and "Retweets" from Twitter, and "Applause" and categories tags from Medium. 
+The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [8] and Twitter [9]. With both social platforms, we could get public information about how the users interacted with the content, such as "Likes" and "Retweets" from Twitter, and "Applause" and categories tags from Medium.
 
 The reason to correlate the number of "Likes" and "Retweets" from Twitter with a Medium article, was to try to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles reached initially almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and the performance and subsequent interactions with the article are limited to other variables like the title of the article, that is exactly what we want to measure.
 
@@ -47,7 +47,7 @@ Description of the dataset fields:
 
 | Field | Description | 
 | --- | --- |
-| Title | The content of the tweet, FreeCodeCamp normally uses the title of the title and sometimes the username of the author |
+| Title | The content of the tweet, FreeCodeCamp normally uses the title of the article from Medium and sometimes the username of the author from Twitter |
 | Retweet Count | How many times that tweet was "Retweeted" on Twitter |
 | Favorite Count | How many times that tweet was marked as favorite on Twitter |
 | Medium Hearts | How many times that article was marked as favorite on Medium |
@@ -89,13 +89,13 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 
 [5] Missing reference
 
-[6] 
+[6] Twitter. Accessed 13 Aug. 2018. Available at: https://www.twitter.com
 
-[7] 
+[7] Medium. Accessed 13 Aug. 2018. Available at: https://www.medium.com
 
-[8] 
+[8] freecodecamp. Accessed 13 Aug. 2018. Available at: https://medium.freecodecamp.org/
 
-[9] 
+[9] freecodecamp.org. Accessed 13 Aug. 2018. Available at: https://twitter.com/freecodecamp
 
 [10] Missing reference
 
