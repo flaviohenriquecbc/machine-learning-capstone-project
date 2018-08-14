@@ -33,7 +33,7 @@ The reason to correlate the number of "Likes" and "Retweets" from Twitter with a
 
 It was decided to choose FreeCodeCamp account, because the idea is to limit the scope of the subject of the articles and predict better the response on a specif field. The same title can perform well on one category (e.g. Technology), but not necessarly on a different one (e.g. Culinary). Also this account posts as the Tweet content the title of the original article and the URL on Medium.
 
-After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, I reachead a dataset of 719 datapoints. Here are some examples of such correlation:
+After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, there is a dataset of 719 datapoints. Here are some examples of such correlation:
 
 | Title | Retweet Count | Favorite Count | Medium Hearts | Medium Categories  | Created at | URL |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -62,22 +62,23 @@ Classification is a common task of machine learning (ML), which involves predict
 
 Predicting number of shares and likes of an article can be treated as a classification problem, because the output will be discrete values (range of shares and likes). As input, the title of the articles with each word as a token t1, t2, t3, ... tn.
 
-For this task will be used the following algorithms: Support Vector Machines (SVM), Decision Trees, Gaussian Naive Bayes (GaussianNB), K-Nearest Neighbors and Logistic Regression. In the end, it will be compared the performance of each one of them and one will be chosen. The implementation of this project will be made usying Python, Numpy [[14]](http://www.numpy.org/) and Scikit [[15]](http://scikit-learn.org/stable/).
+For this task will evaluate the following algorithms: Support Vector Machines (SVM), Decision Trees, Gaussian Naive Bayes (GaussianNB), K-Nearest Neighbors and Logistic Regression. In the end, it will be compared the performance of each one of them and one will be chosen. To estimate accuracy, it will be used a 5-fold cross validation, that splits the dataset in 5 parts, 4 of trainning and 1 of testing. The implementation of this project will be made usying Python, Numpy [[14]](http://www.numpy.org/) and Scikit [[15]](http://scikit-learn.org/stable/).
 
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-To reach a better solution, we will test several supervised algorithms and compare the performance between them.  
-
+This project will run the same testing and training data for multiple algorithms, the comparison between themselves can be used to evaluate their performance. The comparison will be made with the F1-score of each of the simulations to check which one is more effective.
 
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
 
-The benchmark model and solution model will be evaluated, when appropriate, with the F1, accurancy and precision scores.
+The benchmark model and the solution model will be evaluated using:
 
- - F1 score
- - Accurancy Score
- - Precision Score
+a. F1-Score
+
+
+
+
 
 
 ### Project Design
@@ -135,4 +136,3 @@ f.
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 
-{ "id": 1026876138969333800, "retweet_count": 5, "favorite_count": 10, "text": "How to use JSON padding (and other options) to bypass the Same Origin Policy", "created_at": "2018-08-07 17:02:04", "url": "https://medium.freecodecamp.org/use-jsonp-and-other-alternatives-to-bypass-the-same-origin-policy-17114a5f2016", "mediumHearts": 177, "mediumCategories": ["JavaScript", "HTML", "Web Development", "Tutorial", "Technology"] },
