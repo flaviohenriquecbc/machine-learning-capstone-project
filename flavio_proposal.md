@@ -58,10 +58,9 @@ Description of the dataset fields:
 ### Solution Statement
 _(approx. 1 paragraph)_
 
-To try to predict the number of shares and likes of an article, we will define the problem as a classification system. Where the words of the title will be tokens t1, t2, ... tn and the range of the likes and shares will be the output of this classification. We will use algorithms such as Support Vector Machines (SVM), Decision Trees, Gaussian Naive Bayes (GaussianNB), K-Nearest Neighbors and Logistic Regression.
+Classification is a common task of machine learning (ML), which involves predicting a target variable taking in consideration the previous data [11]. To reach such classification, it is necessary to create a model with the previous training data, and then use it to predict the value of the test data [12]. This process is called Supervised Learning, since the data processing phase is guided toward the class variable while building the model [13].
 
-To implement this solution we will use Numpy and Scikit running on default hyperparameters.
-
+Predicting number of shares and likes of an article can be treated as a classification problem, because the output will be discrete values (range of shares and likes). As input, the title of the articles with each word as a token t1, t2, t3, ... tn. For this task will be used the following algorithms: Support Vector Machines (SVM), Decision Trees, Gaussian Naive Bayes (GaussianNB), K-Nearest Neighbors and Logistic Regression. In the end, it will compared the performance of each one of them and choose the best one. The implementation of this project will be made usying Python, Numpy [14] and Scikit [15].
 
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
@@ -113,6 +112,16 @@ f.
 [9] freecodecamp.org. Accessed 13 Aug. 2018. Available at: https://twitter.com/freecodecamp
 
 [10] Missing reference
+
+[11] N. Abdelhamid, A. Ayesh, F. Thabtah, S. Ahmadi, W. Hadi. MAC: A multiclass associative classification algorithm J. Info. Know. Mgmt. (JIKM), 11 (2) (2012), pp. 125001-1-1250011-10 WorldScinet
+
+[12] I.H. Witten, E. Frank, M.A. Hall. Data Mining: Practical Machine Learning Tools and Techniques. Morgan Kaufmann, Burlington, MA (2011)
+
+[13] F. Thabtah, S. Hammoud, H. Abdeljaber, Parallel associative classification data mining frameworks based mapreduce, To Appear in Journal of Parallel Processing Letter, March 2015, World Scientific, 2015.
+
+[14] NumPy. Accessed 14 Aug. 2018. Available at: http://www.numpy.org/
+
+[15] scikit-learn. Accessed 14 Aug. 2018. Available at: http://scikit-learn.org/stable/
 
 -----------
 
