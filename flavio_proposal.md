@@ -18,23 +18,22 @@ Considering the offer of content and competition with so many interesting posts,
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-When the author writes a text, it is expected that his words will reach a reasonable number of readers, and will influence and bring value to the readers. During the creation of the content, the title is one of the important details that needs to be taken in consideration, because normally it will the first contact the reader will have with the article. Thus, to create a good first impression, try to have more people to read the article and interact with it, choosing a good title is very important.
+When an author writes a text, it is expected that their words will spread, influence and bring value to the readers. While writing, the title is one of the important details that needs to be taken in consideration, because normally this will the first contact place of their work. Thus, to create a good first impression, try to have more people to read the article and interact with it, choosing a good title is very important.
 
-Some of the most used platforms to spread ideas nowadays are Twitter [6] and Medium [7]. On the first one, normally is posted external urls with its title, where the users can access and demonstrate its satisfaction with "Likes" or "Retweeting" (shares) of the original post. The second one has the full text with tags to classify the article and "Applause" (similar to Twitter "Likes") to show how much the users appretiated the content. A correlation between these two networks can bring us more valuable information.
+Some of the most used platforms to spread ideas nowadays are Twitter [6] and Medium [7]. On the first one, normally are posted external urls with its title, where the users can access and demonstrate its satisfaction with "Likes" or "Retweeting" (shares) of the original tweet. The second one has the full text with tags to classify the article and "Applause" (similar to Twitter "Likes") to show how much the users appretiated the content. A correlation between these two networks can bring us more valuable information.
 
 The problem to be solved: Predict the number of likes and shares an article receives based on its title; and analyse how the title length and the categories tags had performed.
-
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
 
-The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [8] and Twitter [9]. With both social platforms, we could get public information about how the users interacted with the content, such as "Likes" and "Retweets" from Twitter, and "Applause" and categories tags from Medium.
+The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [8] and Twitter [9]. With both social platforms, it was possible to get public information about how the users interacted with the content, such as "Likes" and "Retweets" from Twitter, and "Applause" from Medium.
 
-The reason to correlate the number of "Likes" and "Retweets" from Twitter with a Medium article, was to try to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles reached initially almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and the performance and subsequent interactions with the article are limited to other variables like the title of the article, that is exactly what we want to measure.
+The reason to correlate the number of "Likes" and "Retweets" from Twitter with a Medium article, was to try to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles reached initially almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and the performance and interactions with it are limited to the characteristics of the tweet, for example, the title of the article, that is exactly what I want to measure.
 
-It was decided to choose FreeCodeCamp account, because we wanted to limit the scope of the subject of the articles and predict better the response on a specif field. The same title can perform well on one category (e.g. Technology), but not necessarly on a different one (e.g. Culinary). Also this account posts as the Tweet content the title of the original article and the url on Medium.
+It was decided to choose FreeCodeCamp account, because the idea is to limit the scope of the subject of the articles and predict better the response on a specif field. The same title can perform well on one category (e.g. Technology), but not necessarly on a different one (e.g. Culinary). Also this account posts as the Tweet content the title of the original article and the URL on Medium.
 
-After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, we reachead a dataset of 719 datapoints. Here are some examples of such correlation:
+After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, I reachead a dataset of 719 datapoints. Here are some examples of such correlation:
 
 | Title | Retweet Count | Favorite Count | Medium Hearts | Medium Categories  | Created at | URL |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -54,7 +53,6 @@ Description of the dataset fields:
 | Medium Categories | Which tags were used to tag the article on Medium |
 | Created at | When the tweet was posted |
 | URL | The url of the article on Medium |
-
 
 
 ### Solution Statement
@@ -84,7 +82,15 @@ The benchmark model and solution model will be evaluated, when appropriate, with
 ### Project Design
 _(approx. 1 page)_
 
-In this final section, summarize a theoretical workflow for approaching a solution given the problem. Provide thorough discussion for what strategies you may consider employing, what analysis of the data might be required before being used, or which algorithms will be considered for your implementation. The workflow and discussion that you provide should align with the qualities of the previous sections. Additionally, you are encouraged to include small visualizations, pseudocode, or diagrams to aid in describing the project design, but it is not required. The discussion should clearly outline your intended workflow of the capstone project.
+The general sequence of steps are as follows:
+describe the same as here: https://github.com/flaviohenriquecbc/machine-learning-student-intervention/blob/master/student_intervention.ipynb
+a. 
+b. 
+c.
+d.
+e.
+f.
+
 
 ### References
 
