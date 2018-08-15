@@ -83,12 +83,11 @@ _(approx. 1 page)_
 
 The steps to solve the proposed problem will take as reference the one proposed by S. Raschka [[16]](https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html). They are:
 
-* Data gathering
-    Bla bla bla
-* Data pre-processing
+* **Data gathering:** This step is responsible to get the datasets that will be used on to analyse, train and test the models. These datas were already gathered from Twitter and Medium and aggregated like showed in the section "Datasets and Inputs".
+* **Data pre-processing:** The dataset will be cleaned, formatted or added the missing values.
 * Exploring Data
-    * Prepare environment to run the simulations
-    * Implementation Data Exploration
+    * **Prepare environment to run the simulations:** The environment used to make this simulation will be a Jupyter Notebook. For each of the steps, we will describe what is expected and show the Python code used for the implementation.
+    * **Implementation Data Exploration:** 
     * Preprocess Feature Columns
     * Training and Testing Data Split
 * Training and Evaluating Models
