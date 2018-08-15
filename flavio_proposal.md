@@ -29,7 +29,7 @@ _(approx. 2-3 paragraphs)_
 
 The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [[8]](https://medium.freecodecamp.org/) and Twitter [[9]](https://twitter.com/freecodecamp). With both social platforms, it was possible to get public information about how the users interacted with the content, such as "Likes" and "Retweets" from Twitter, and "Applause" from Medium.
 
-The reason to correlate the number of "Likes" and "Retweets" from Twitter with a Medium article, was to try to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles reached initially almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and the performance and interactions with it are limited to the characteristics of the tweet, for example, the title of the article, that is exactly what I want to measure.
+The reason to correlate the number of "Likes" and "Retweets" from Twitter with a Medium article, was to try to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles reached initially almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and the performance and interactions with it are limited to the characteristics of the tweet, for example, the title of the article, that is exactly what we want to measure.
 
 It was decided to choose FreeCodeCamp account, because the idea is to limit the scope of the subject of the articles and predict better the response on a specif field. The same title can perform well on one category (e.g. Technology), but not necessarly on a different one (e.g. Culinary). Also this account posts as the Tweet content the title of the original article and the URL on Medium.
 
@@ -62,12 +62,12 @@ Classification is a common task of machine learning (ML), which involves predict
 
 Predicting number of shares and likes of an article can be treated as a classification problem, because the output will be discrete values (range of shares and likes). As input, the title of the articles with each word as a token t1, t2, t3, ... tn.
 
-For this task will evaluate the following algorithms: Support Vector Machines (SVM), Decision Trees, Gaussian Naive Bayes (GaussianNB), K-Nearest Neighbors and Logistic Regression. In the end, it will be compared the performance of each one of them and one will be chosen. To estimate accuracy, it will be used a 5-fold cross validation, that splits the dataset in 5 parts, 4 of trainning and 1 of testing. The implementation of this project will be made usying Python, Numpy [[14]](http://www.numpy.org/) and Scikit [[15]](http://scikit-learn.org/stable/).
+For this task we will evaluate the following algorithms: Support Vector Machines (SVM), Decision Trees, Gaussian Naive Bayes (GaussianNB), K-Nearest Neighbors and Logistic Regression. In the end, it will be compared the performance of each one of them and one will be chosen. To estimate accuracy, it will be used a 5-fold cross validation, that splits the dataset in 5 parts, 4 of trainning and 1 of testing. The implementation of this project will be made usying Python, Numpy [[14]](http://www.numpy.org/) and Scikit [[15]](http://scikit-learn.org/stable/).
 
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-This project will run the same testing and training data for multiple algorithms, the comparison between themselves can be used to evaluate the overall performance.
+This project will run the same testing and training data for multiple algorithms, the comparison between them can be used to evaluate the overall performance.
 
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
@@ -76,19 +76,27 @@ At least one evaluation metric is necessary to quantify the performance of the b
 
 Accuracy = Number of correct predictions / Total number of predictions made
 
-This metric only works well if there are similar number of samples belonging to each class. For this reason, we will divide the range of shares and likes in a way that respect this distribution. 
+This metric only works well if there are similar number of samples belonging to each class. For this reason, we will divide the range of shares and likes count in a way that respects this distribution. 
 
 ### Project Design
 _(approx. 1 page)_
 
-The general sequence of steps are as follows:
-describe the same as here: https://github.com/flaviohenriquecbc/machine-learning-student-intervention/blob/master/student_intervention.ipynb
-a. 
-b. 
-c.
-d.
-e.
-f.
+The steps to solve the proposed problem will follow the Sebastian Raschka [] workflow. They are:
+
+* Data gathering
+* Data pre-processing
+* Exploring Data
+    * Prepare environment to run the simulations
+    * Implementation Data Exploration
+    * Preparing the Data
+    * Preprocess Feature Columns
+    * Training and Testing Data Split
+* Training and Evaluating Models
+  * Model Performance Metrics
+* Choosing the Best Model
+
+
+![Figure 1: Sebastians Raschka's workflow](https://octodex.github.com/images/yaktocat.png)
 
 
 ### References
