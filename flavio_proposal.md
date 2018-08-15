@@ -20,9 +20,9 @@ _(approx. 1 paragraph)_
 
 When an author writes a text, it is expected that their words will influence and bring value to the readers. While writing, the title is one of the important details that needs to be taken in consideration, because this will normally be the first contact place of their work. Thus, to create a good first impression, to have more people read the article and interact with it, choosing a good title is very important.
 
-Some of the most used platforms to spread ideas nowadays are Twitter [[6]](https://www.twitter.com) and Medium [[7]](https://www.medium.com). On the first one, articles are normally posted including external urls in the title, where users can access and demonstrate satisfaction with "Likes" or "Retweeting" (sharing) of the original post. The second one shows the full text with tags to classify the article and "Applause" (similar to Twitter's "Likes") to show how much the users appreciate the content. A correlation between these two networks can bring us more valuable information.
+Some of the most used platforms to spread ideas nowadays are Twitter [[6]](https://www.twitter.com) and Medium [[7]](https://www.medium.com). On the first one, articles are normally posted including external URLs and the title, where users can access and demonstrate satisfaction with "Likes" or "Retweeting" (sharing) of the original post. The second one shows the full text with tags to classify the article and "Applause" (similar to Twitter's "Likes") to show how much the users appreciate the content. A correlation between these two networks can bring us more valuable information.
 
-The problem to be solved: Predict the number of likes and shares an article receives based on its title; and analyse how the title length and the tags have performed.
+The problem to be solved: Predict the range of likes and shares count an article receives based on its title; and analyse how the title length and the tags have performed.
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
@@ -52,7 +52,7 @@ Description of the dataset fields:
 | Medium Hearts | How many times that article was marked as favorite on Medium |
 | Medium Categories | Which tags were used to tag the article on Medium |
 | Created at | When the tweet was posted |
-| URL | The url of the article on Medium |
+| URL | The website of the article on Medium |
 
 
 ### Solution Statement
@@ -67,18 +67,16 @@ For this task will evaluate the following algorithms: Support Vector Machines (S
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-This project will run the same testing and training data for multiple algorithms, the comparison between themselves can be used to evaluate their performance. The comparison will be made with the F1-score of each of the simulations to check which one is more effective.
+This project will run the same testing and training data for multiple algorithms, the comparison between themselves can be used to evaluate the overall performance.
 
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
 
-The benchmark model and the solution model will be evaluated using F1-score.
+At least one evaluation metric is necessary to quantify the performance of the benchmarks and solution model. For this project, it will be used the accuracy, which is the number of correct predictions made as a ratio of all predictions made.
 
+Accuracy = Number of correct predictions / Total number of predictions made
 
-
-
-
-
+This metric only works well if there are similar number of samples belonging to each class. For this reason, we will divide the range of shares and likes in a way that respect this distribution. 
 
 ### Project Design
 _(approx. 1 page)_
@@ -135,3 +133,12 @@ f.
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 
+Possible ranges:
+0 - 10
+10 - 20
+20 - 30
+30 - 40
+40 - 60
+60 - 80
+80 - 130
+> 130
