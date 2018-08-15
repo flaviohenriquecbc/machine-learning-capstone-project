@@ -87,11 +87,9 @@ The steps to solve the proposed problem will take as reference the one proposed 
 * **Data pre-processing:** The dataset will be cleaned, formatted or added the missing values.
 * **Exploring Data**
     * **Prepare environment to run the simulations:** The environment used to make this simulation will be a Jupyter Notebook. For each of the steps, we will describe what is expected and show the Python code used for the implementation.
-    * **Implementation Data Exploration:** 
-    * Preprocess Feature Columns
-    * Training and Testing Data Split
-* Training and Evaluating Models
-  * Model Performance Metrics
+    * **Training and Testing Data Split:** It will be defined the sets for training and testing. From the overall datapoints that we have 719, 143 will be testing data and 576 training.
+* **Training and Evaluating Models**
+  * **Model Performance Metrics:**
 * Choosing the Best Model
 
 ![Figure 1: Sebastians Raschka's workflow](https://github.com/flaviohenriquecbc/machine-learning-capstone-proposal/blob/master/supervised_learning_flowchart.png?raw=true)
