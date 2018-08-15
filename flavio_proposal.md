@@ -18,11 +18,11 @@ Considering the offer of content and competition with so many interesting posts,
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-When an author writes a text, it is expected that their words will spread, influence and bring value to the readers. While writing, the title is one of the important details that needs to be taken in consideration, because normally this will the first contact place of their work. Thus, to create a good first impression, try to have more people to read the article and interact with it, choosing a good title is very important.
+When an author writes a text, it is expected that their words will influence and bring value to the readers. While writing, the title is one of the important details that needs to be taken in consideration, because this will normally be the first contact place of their work. Thus, to create a good first impression, to have more people read the article and interact with it, choosing a good title is very important.
 
-Some of the most used platforms to spread ideas nowadays are Twitter [[6]](https://www.twitter.com) and Medium [[7]](https://www.medium.com). On the first one, normally are posted external urls with its title, where the users can access and demonstrate its satisfaction with "Likes" or "Retweeting" (shares) of the original tweet. The second one has the full text with tags to classify the article and "Applause" (similar to Twitter "Likes") to show how much the users appretiated the content. A correlation between these two networks can bring us more valuable information.
+Some of the most used platforms to spread ideas nowadays are Twitter [[6]](https://www.twitter.com) and Medium [[7]](https://www.medium.com). On the first one, articles are normally posted including external urls in the title, where users can access and demonstrate satisfaction with "Likes" or "Retweeting" (sharing) of the original post. The second one shows the full text with tags to classify the article and "Applause" (similar to Twitter's "Likes") to show how much the users appreciate the content. A correlation between these two networks can bring us more valuable information.
 
-The problem to be solved: Predict the number of likes and shares an article receives based on its title; and analyse how the title length and the categories tags had performed.
+The problem to be solved: Predict the number of likes and shares an article receives based on its title; and analyse how the title length and the tags have performed.
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
@@ -72,9 +72,8 @@ This project will run the same testing and training data for multiple algorithms
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
 
-The benchmark model and the solution model will be evaluated using:
+The benchmark model and the solution model will be evaluated using F1-score.
 
-a. F1-Score
 
 
 
