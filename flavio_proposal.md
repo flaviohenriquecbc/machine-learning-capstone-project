@@ -81,14 +81,14 @@ This metric only works well if there are similar number of samples belonging to 
 ### Project Design
 _(approx. 1 page)_
 
-The steps to solve the proposed problem will take as reference the one propsed by S. Raschka [[16]](https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html). They are:
+The steps to solve the proposed problem will take as reference the one proposed by S. Raschka [[16]](https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html). They are:
 
 * Data gathering
+    Bla bla bla
 * Data pre-processing
 * Exploring Data
     * Prepare environment to run the simulations
     * Implementation Data Exploration
-    * Preparing the Data
     * Preprocess Feature Columns
     * Training and Testing Data Split
 * Training and Evaluating Models
@@ -97,7 +97,7 @@ The steps to solve the proposed problem will take as reference the one propsed b
 
 ![Figure 1: Sebastians Raschka's workflow](https://github.com/flaviohenriquecbc/machine-learning-capstone-proposal/blob/master/supervised_learning_flowchart.png?raw=true)
 <p align="center">
-Sebastian Raschka's workflow
+Figure 1: Sebastians Raschka's workflow
 </p>
 
 ### References
