@@ -81,7 +81,7 @@ This metric only works well if there are similar number of samples belonging to 
 ### Project Design
 _(approx. 1 page)_
 
-The steps to solve the proposed problem will follow the Sebastian Raschka [] workflow. They are:
+The steps to solve the proposed problem will take as reference the one propsed by S. Raschka [[16]](https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html). They are:
 
 * Data gathering
 * Data pre-processing
@@ -95,9 +95,10 @@ The steps to solve the proposed problem will follow the Sebastian Raschka [] wor
   * Model Performance Metrics
 * Choosing the Best Model
 
-
 ![Figure 1: Sebastians Raschka's workflow](https://github.com/flaviohenriquecbc/machine-learning-capstone-proposal/blob/master/supervised_learning_flowchart.png?raw=true)
-
+<p align="center">
+Sebastian Raschka's workflow
+</p>
 
 ### References
 
@@ -130,6 +131,8 @@ The steps to solve the proposed problem will follow the Sebastian Raschka [] wor
 [14] NumPy. Accessed 14 Aug. 2018. Available at: http://www.numpy.org/
 
 [15] scikit-learn. Accessed 14 Aug. 2018. Available at: http://scikit-learn.org/stable/
+
+[16]  S. Raschka. Predictive modeling, supervised machine learning, and pattern classification. Accessed 14 Aug. 2018. Available at: https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html
 
 -----------
 
