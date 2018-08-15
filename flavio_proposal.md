@@ -96,7 +96,7 @@ The steps to solve the proposed problem will follow the Sebastian Raschka [] wor
 * Choosing the Best Model
 
 
-![Figure 1: Sebastians Raschka's workflow](https://octodex.github.com/images/yaktocat.png)
+![Figure 1: Sebastians Raschka's workflow](https://github.com/flaviohenriquecbc/machine-learning-capstone-proposal/blob/master/supervised_learning_flowchart.png?raw=true)
 
 
 ### References
