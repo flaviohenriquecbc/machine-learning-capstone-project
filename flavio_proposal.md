@@ -4,10 +4,8 @@ Flávio Henrique de Freitas
 September 15th, 2018
 
 ## Proposal
-_(approx. 2-3 pages)_
 
 ### Domain Background
-_(approx. 1-2 paragraphs)_
 
 Social networks websites have become an important communication tool and source of information. The hours spent in average connected per day in the past years is up to 6 hours [[1]](https://www.emarketer.com/Report/US-Time-Spent-with-Media-eMarketers-Updated-Estimates-2017/2002142) for adults and 9 for teenagers, while 30% of this time is on social networks [[2]](https://www.commonsensemedia.org/research/the-common-sense-census-media-use-by-tweens-and-teens). During a normal navigation on such platforms, users are exposed to several posts such as friends' statuses, images, news and more. With such amount of information and variety of content, the time for the user to decide to interact with the content is very small. Gitte at al. [3] suggest that we take around 50 milliseconds to make a good first impression and this has proved to be very powerful in a wide range of contexts.
 
@@ -16,7 +14,6 @@ Besides being a place for connecting with friends and sharing moments of the use
 Considering the offer of content and competition with so many interesting posts, showing a proper title for the post affects the probability that a user will check the content. This measure has a strong impact on how many readers an article will have and how much of the content will be read. Furthermore, showing the user a content they prefer (to interact) increases the user satisfaction. It is thus important to accurately estimate the interaction rate of articles based on its title.
 
 ### Problem Statement
-_(approx. 1 paragraph)_
 
 When an author writes a text, it is expected that their words will influence and bring value to the readers. While writing, the title is one of the important details that needs to be taken in consideration, because this will normally be the first contact place of their work. Thus, to create a good first impression, to have more people read the article and interact with it, choosing a good title is very important.
 
@@ -25,7 +22,6 @@ Some of the most used platforms to spread ideas nowadays are Twitter [[5]](https
 The problem to be solved: Predict the range of likes and shares count an article receives based on its title; and analyse how the title length and the tags have performed.
 
 ### Datasets and Inputs
-_(approx. 2-3 paragraphs)_
 
 The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [[7]](https://medium.freecodecamp.org/) and Twitter [[8]](https://twitter.com/freecodecamp). With both social platforms, it was possible to get public information about how the users interacted with the content, such as "Likes" and "Retweets" from Twitter, and "Applause" from Medium.
 
@@ -56,7 +52,6 @@ Description of the dataset fields:
 
 
 ### Solution Statement
-_(approx. 1 paragraph)_
 
 Classification is a common task of machine learning (ML), which involves predicting a target variable taking in consideration the previous data [10]. To reach such classification, it is necessary to create a model with the previous training data, and then use it to predict the value of the test data [12]. This process is called Supervised Learning, since the data processing phase is guided toward the class variable while building the model [11].
 
@@ -65,12 +60,10 @@ Predicting number of shares and likes of an article can be treated as a classifi
 For this task we will evaluate the following algorithms: Support Vector Machines (SVM), Decision Trees, Gaussian Naive Bayes (GaussianNB), K-Nearest Neighbors and Logistic Regression. In the end, it will be compared the performance of each one of them and one will be chosen. To estimate accuracy, it will be used a 5-fold cross validation, that splits the dataset in 5 parts, 4 of trainning and 1 of testing. The implementation of this project will be made usying Python, Numpy [[12]](http://www.numpy.org/) and Scikit [[13]](http://scikit-learn.org/stable/).
 
 ### Benchmark Model
-_(approximately 1-2 paragraphs)_
 
 This project will run the same testing and training data for multiple algorithms, the comparison between them can be used to evaluate the overall performance.
 
 ### Evaluation Metrics
-_(approx. 1-2 paragraphs)_
 
 At least one evaluation metric is necessary to quantify the performance of the benchmarks and solution model. For this project, it will be used the accuracy, which is the number of correct predictions made as a ratio of all predictions made.
 
@@ -79,7 +72,6 @@ Accuracy = Number of correct predictions / Total number of predictions made
 This metric only works well if there are similar number of samples belonging to each class. For this reason, we will divide the range of shares and likes count in a way that respects this distribution. 
 
 ### Project Design
-_(approx. 1 page)_
 
 The steps to solve the proposed problem will take as reference the one proposed by S. Raschka [[14]](https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html). They are:
 
@@ -142,11 +134,4 @@ Figure 1: Sebastians Raschka's workflow
 - Are all the resources used for this project correctly cited and referenced?
 
 Possible ranges:
-0 - 10
-10 - 20
-20 - 30
-30 - 40
-40 - 60
-60 - 80
-80 - 130
-> 130
+0 - 10, 10 - 20, 20 - 30, 30 - 40, 40 - 60, 60 - 80, 80 - 130, > 130
