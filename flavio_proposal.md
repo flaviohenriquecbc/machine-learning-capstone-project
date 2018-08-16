@@ -89,8 +89,10 @@ The steps to solve the proposed problem will take as reference the one proposed 
     * **Prepare environment to run the simulations:** The environment used to make this simulation will be a Jupyter Notebook. For each of the steps, we will describe what is expected and show the Python code used for the implementation.
     * **Training and Testing Data Split:** It will be defined the sets for training and testing. From the overall datapoints that we have 719, 143 will be testing data and 576 training.
 * **Training and Evaluating Models**
-  * **Model Performance Metrics:**
-* Choosing the Best Model
+  * **Model Performance Metrics Implementation:** The chosen Evaluation Metric will be implemented to analyse how the each of the models performed.
+  * **Models Implementation:** Implement all the algorithms of supervised learning chosen to test how each of them performe for such dataset.
+  * **Model Performance Metrics:** Evaluate all the models and make a comparison between their performance
+* **Choosing the Best Model:** Decide the best model to make the desired prediction
 
 ![Figure 1: Sebastians Raschka's workflow](https://github.com/flaviohenriquecbc/machine-learning-capstone-proposal/blob/master/supervised_learning_flowchart.png?raw=true)
 <p align="center">
