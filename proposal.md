@@ -90,7 +90,7 @@ The steps to solve the proposed problem will take as reference the one proposed 
 
 ![Figure 1: Sebastians Raschka's workflow](https://github.com/flaviohenriquecbc/machine-learning-capstone-proposal/blob/master/supervised_learning_flowchart.png?raw=true)
 <p align="center">
-Figure 1: Sebastians Raschka's workflow
+Figure 1: Sebastians Raschka's workflow [[14]](https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html)
 </p>
 
 ### References
