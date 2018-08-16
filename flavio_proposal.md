@@ -92,6 +92,8 @@ The steps to solve the proposed problem will take as reference the one proposed 
   * **Model Performance Metrics Implementation:** The chosen Evaluation Metric will be implemented to analyse how the each of the models performed.
   * **Models Implementation:** Implement all the algorithms of supervised learning chosen to test how each of them performe for such dataset.
   * **Model Performance Metrics:** Evaluate all the models and make a comparison between their performance
+  * **Model Tuning:** Tune the algorithms to try to find the best parameters
+  * **Reiterate:** Reiterate the previous steps and check how the performance is evolving
 * **Choosing the Best Model:** Decide the best model to make the desired prediction
 
 ![Figure 1: Sebastians Raschka's workflow](https://github.com/flaviohenriquecbc/machine-learning-capstone-proposal/blob/master/supervised_learning_flowchart.png?raw=true)
