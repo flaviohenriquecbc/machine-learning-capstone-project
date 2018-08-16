@@ -1,7 +1,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
 Flávio Henrique de Freitas  
-September 15th, 2018
+August 16th, 2018
 
 ## Proposal
 
