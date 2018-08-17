@@ -23,11 +23,11 @@ The problem to be solved: Predict the range of favorites and shares count an art
 
 ### Datasets and Inputs
 
-The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [[7]](https://medium.freecodecamp.org/) and Twitter [[8]](https://twitter.com/freecodecamp). With both social platforms, it was possible to get public information about how the users interacted with the content, such as "Favorites" and "Retweets" from Twitter, and "Applause" from Medium.
+The data used to predict how titles will perform was gathered from the accounts of the non-profit organization FreeCodeCamp on Medium [[7]](https://medium.freecodecamp.org/) and Twitter [[8]](https://twitter.com/freecodecamp). ON both social platforms, it was possible to get public information about how the users interacted with the content, such as "Favorites" and "Retweets" from Twitter, and "Applause" from Medium.
 
-The reason to correlate the number of "Favorites" and "Retweets" from Twitter with a Medium article, was to try to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles reached initially almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and the performance and interactions with it are limited to the characteristics of the tweet, for example, the title of the article, that is exactly what we want to measure.
+Correlating the number of "Favorites" and "Retweets" from Twitter with a Medium article, is an attemp to isolate the effect of number of reached readers and number of Medium "Applauses". Because the more the article is shared in different platforms, the more readers it will reach and the more Medium "Applauses" it will receive. Using only the Twitter statistic, it is expected that the articles initially reached almost the same number of readers (that are the followers of the FreeCodeCamp account on Twitter), and their performance and interactions with it are limited to the characteristics of the tweet, for example, the title of the article, that is exactly what we want to measure.
 
-It was decided to choose FreeCodeCamp account, because the idea is to limit the scope of the subject of the articles and predict better the response on a specif field. The same title can perform well on one category (e.g. Technology), but not necessarily on a different one (e.g. Culinary). Also this account posts as the Tweet content the title of the original article and the URL on Medium.
+The FreeCodeCamp account was chosen, because the idea is to limit the scope of the subject of the articles and predict better the response to a specif field. The same title can perform well in one category (e.g. Technology), but not necessarily in a different one (e.g. Culinary). Also this account posts as Tweet content the title of the original article and the URL on Medium
 
 After getting the articles from FreeCodeCamp written on Medium and shared on Twitter, there is a dataset of 719 data points. Here are some examples of such correlation:
 
@@ -42,7 +42,7 @@ Description of the dataset fields:
 
 | Field | Description | 
 | --- | --- |
-| Title | The content of the tweet, FreeCodeCamp normally uses the title of the article from Medium and sometimes the username of the author from Twitter |
+| Title | The content of the tweet, FreeCodeCamp normally uses the title of the article from Medium and sometimes the username from Twitter |
 | Retweet Count | How many times that tweet was "Retweeted" on Twitter |
 | Favorite Count | How many times that tweet was marked as favorite on Twitter |
 | Medium Applauses | How many times that article was marked as favorite on Medium |
@@ -134,3 +134,4 @@ Figure 1: Sebastians Raschka's workflow [[14]](https://sebastianraschka.com/Arti
 
 Possible ranges:
 0 - 10, 10 - 20, 20 - 30, 30 - 40, 40 - 60, 60 - 80, 80 - 130, > 130
+https://pt.sharelatex.com/project/5b6c7ba3b78bee04adf16e05
