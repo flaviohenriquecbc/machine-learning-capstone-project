@@ -6,6 +6,13 @@
 
 In progress...
 
+This project requires **Python 2.7** and the following Python libraries installed:
+
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org)
+- [matplotlib](http://matplotlib.org/)
+- [Jupyter Notebook](http://ipython.org/notebook.html)
+- [Anaconda](http://continuum.io/downloads)
 
 **Note**
 
